@@ -1,0 +1,220 @@
+*,*:after,*:before{
+padding: 0;
+    margin: 0;
+}
+
+body{
+font-family: cursive;
+    height: 3000px
+}
+
+/* Start Home */
+/* Header */
+section.home{
+width: 100%;
+    height: 600px;
+    background-image: url(../Images/image-01.jpg);
+    background-size: cover;
+}
+section.home .header-scroll{
+    background-color: rgba(0,0,0,0.7);
+    color: red;
+    width: 100%;
+    height: 80px;
+    
+    position: fixed;
+    top: 0;
+    display: none
+}
+section.home nav.navbar ul{
+list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+
+  section.home nav.navbar ul li{
+         padding: 30px 40px 0px 40px;
+ 
+ }
+  section.home nav.navbar ul li a {
+font-size: 20px;
+      text-decoration: none;
+      color: #fff
+  }
+  section.home nav.navbar ul li a:hover {
+color: #ddd
+  }
+/* End Header */
+section.home .zipper {
+margin-top: 170px;
+    color: whitesmoke;
+}
+section.home .zipper h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+section.home .zipper p{
+font-size: 25px;
+}
+/* End Home */
+/* Start About */ 
+section.about{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/image-02.jpg);
+    background-size: cover
+}
+section.about .about_us, section.service .service_us{
+    width: 30%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+    margin-right: 5%
+}
+section.about .about_us h2,section.service .service_us h2{
+font-size: 30px;
+    line-height: 3;
+    color: #ffff73;
+    margin-top: 15%; 
+    margin-bottom: 8%;
+}
+section.about .about_us p,.service .service_us p {
+color: #ddd;
+    line-height: 2;
+    padding-bottom: 15px;
+    font-size: 15px
+}
+/* End About */ 
+/* Service */ 
+section.service {
+    width: 100%;
+    height: 600px;
+    background: url('../images/image-03.jpg');
+    background-size: cover;
+}
+
+section.service .service_us {
+    float: left;
+    margin-left: 5%;
+}
+
+section.service .service_us h2 {
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+.service .service_us p {
+    line-height: 1.9
+}
+/*End Service*/
+/*Start testimonials*/
+section.testimonials{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/image-04.jpg);
+    background-size: cover
+}
+section.testimonials h2{
+margin-top: 5%;
+    font-weight: bold;
+    font-size: 40px
+}
+section.testimonials .test{
+    width: 28%;
+    background-color: red;
+    margin-left: 4%;
+    margin-top: 2%;
+    padding: 60px;
+      background: rgba(0,0,0,0.5);
+}
+section.testimonials .test i {
+    padding: 2% 5% 10% 5%;
+         color: #ddd;
+
+    
+}
+.testimonials .test p {
+    line-height: 1.8;
+    text-align: left;
+    color: #fff
+
+}
+/*End testimonials*/
+/*Start Contact*/
+section.contact {
+width: 100%;
+    height: 500px;
+    background: url('../images/image-05.jpg');
+    background-size: cover;
+}
+section.contact h2 {
+padding: 30px 20px 20px 20px ;
+    color: #ffff73
+}
+section.contact .contact_us {
+    width: 40%;
+    height: 100%;
+    margin-right: 5%;
+    float: right;
+    background-color: rgba(0,0,0,0.2);
+}
+section.contact .contact_us form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    color: #fff
+}
+section.contact .contact_us form input{
+ background: rgba(0,0,0,0.5);
+    margin-bottom: 8px;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    color: #fff
+}
+section.contact .contact_us form textarea{
+ background: rgba(0,0,0,0.5);
+    border: 0;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0
+}
+.contact .contact_us form input[type="submit"] {
+    color: #ddd;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold
+}
+.contact .contact_us form input[type="submit"]:hover {
+    color: #333;
+    background-color: beige;
+    font-weight: bold
+}
+/*End Contact*/
+/* Footer Section */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 18px 0;
+    background-color: #efefef
+}
+footer p{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+    margin: 8px;
+}
+footer i.wink{
+    margin-top: 0;
+}
+footer i.social{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #999;
+    color: white;
+    border-radius: 50%;
+}
+/* End Footer Section */
+
+
